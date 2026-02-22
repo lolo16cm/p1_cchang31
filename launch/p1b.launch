@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="sim" />
+
+    <node pkg="p1_cchang31" type="runner.py" name="catch_game_node" output="screen" />
+</launch>
